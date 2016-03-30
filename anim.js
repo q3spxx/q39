@@ -18,7 +18,7 @@ var Anim = {
 			var name = file.split(".");
 			name = name[0];
 			var img = new Image();
-			img.src = Anim.dir + file;
+			img.src = file;
 			img.onload = function () {
 				Anim.load.push(true);
 			};
