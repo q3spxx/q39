@@ -18,11 +18,11 @@ var Anim = {
 			var name = file.split(".");
 			name = name[0];
 			var img = new Image();
-			img.src = file;
+			img.src = Anim.dir + file;
 			img.onload = function () {
 				Anim.load.push(true);
 			};
-			var tFrames = img.height / 32;
+			var tFrames = 800 / 32;
 			var frames = Anim.getFrames(tFrames);
 			var animation = new Animation(id, name, img, tFrames, frames);
 			Data.animArr.push(animation);
