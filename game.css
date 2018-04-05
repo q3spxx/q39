@@ -1,4 +1,13 @@
 * {
 	margin: 0px;
-	padding: 0px;	
+	padding: 0px;
+}
+#mainWrap {
+	position: absolute;
+	float: left;
+	margin-left: 50%;
+	left: -360px;
+}
+#faq {
+	position: absolute;
 }
